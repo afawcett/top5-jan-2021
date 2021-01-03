@@ -22,6 +22,7 @@
  */
 public with sharing class Four {
 
+    // Four.demo();
     public static void demo() {
         Request reqInfo = Request.getCurrent();
         String currentRequestId = reqInfo.getRequestId();

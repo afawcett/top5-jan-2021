@@ -18,6 +18,7 @@
  **/
 public with sharing class Three {
 
+    // Three.demo();
     public static void demo() {
         Request reqInfo = Request.getCurrent();
         System.Quiddity quiddity = reqInfo.getQuiddity();
