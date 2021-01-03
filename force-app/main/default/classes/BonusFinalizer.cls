@@ -24,5 +24,9 @@ public class BonusFinalizer implements Finalizer {
         notification.setNotificationTypeId(notificationType.Id);
         notification.setTargetId(UserInfo.getUserId());
         notification.send(new Set<String> { UserInfo.getUserId()} );            
+
+        // You can also of course choose to log to a custom object (per docs)
+        //  or even logging system via http callouts
+        // ...
     }
 }
