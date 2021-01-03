@@ -16,7 +16,7 @@ public class BonusFinalizer implements Finalizer {
             }
         }
 
-        // Send logged messages via a custom notifcation
+        // Send logged messages via a custom notifcation (max 750 chars)
         CustomNotificationType notificationType = [select Id, DeveloperName from CustomNotificationType where DeveloperName='SayHello'];
         Messaging.CustomNotification notification = new Messaging.CustomNotification();
         notification.setTitle('Demo of Transaction Finalizer');
