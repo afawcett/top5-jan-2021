@@ -22,6 +22,7 @@
  */
 public with sharing class One {
 
+    // One.demo();
     public static void demo() {
         Opportunity opp = new Opportunity();
         opp.addError('Description', 'Error Message!'); 
