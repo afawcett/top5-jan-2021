@@ -21,7 +21,7 @@
  * https://developer.salesforce.com/blogs/2019/01/building-a-batch-retry-framework-with-batchapexerrorevent.html 
  */
 
-trigger BatchApexErrorEventHandler on BatchApexErrorEvent (after insert) {
+trigger FiveBatchApexErrorEventHandler on BatchApexErrorEvent (after insert) {
 
     // Determine which job raises these errors
     Set<Id> asyncApexJobIds = new Set<Id>();
