@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2021-01-02T09:31:38-08:00" hostname="https://ability-business-57722-dev-ed.cs68.my.salesforce.com/" tests="1" failures="0"  errors="0"  time="0.04">
+        <properties>
+            <property name="outcome" value="Passed"/>
+            <property name="testsRan" value="1"/>
+            <property name="passing" value="1"/>
+            <property name="failing" value="0"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="100%"/>
+            <property name="failRate" value="0%"/>
+            <property name="testStartTime" value="Jan 2, 2021 9:31 AM"/>
+            <property name="testExecutionTime" value="0.04 s"/>
+            <property name="testTotalTime" value="0.04 s"/>
+            <property name="commandTime" value="3.52 s"/>
+            <property name="hostname" value="https://ability-business-57722-dev-ed.cs68.my.salesforce.com/"/>
+            <property name="orgId" value="00D1D000000CaBYUA0"/>
+            <property name="username" value="test-wwkb9rvarsh6@example.com"/>
+            <property name="testRunId" value="7071D000015zG0I"/>
+            <property name="userId" value="0051D000005bG20QAE"/>
+            <property name="testRunCoverage" value="36%"/>
+            <property name="orgWideCoverage" value="19%"/>
+        </properties>
+        <testcase name="givenBulkdAPIContextThenConfirmMarkedAsPostProcess" classname="ThreeTest" time="0.04">
+        </testcase>
+    </testsuite>
+</testsuites>
